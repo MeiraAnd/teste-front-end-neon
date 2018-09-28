@@ -1,0 +1,40 @@
+body{
+    background-color: #004f6a;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    .logo{
+        margin: 20px 0 0 5px;
+    }
+    .balance{
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        h1{
+            color: #fff;
+            font-size: 1.8em;
+        }
+    }
+    .year{
+        text-align: center;
+        color: #fff;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    hr{
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, transparent, #a1f64b, transparent);
+        width: 25%;
+    }
+
+    .welcome{
+        text-align: center;
+        color: #fff;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+}
